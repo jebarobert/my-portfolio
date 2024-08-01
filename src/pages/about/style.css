@@ -5,6 +5,9 @@
 .table td,
 .table th {
     color: var(--text-color);
+    background-color: var(--bg-color);
+    border-left: 10px solid var(--primary-color);
+    border-right: 10px solid var(--primary-color);
 }
 
 .t_border {

@@ -5,7 +5,7 @@ import { FaGitlab, FaReact, FaDocker, FaPython, FaAws } from "react-icons/fa";
 const logotext = "JEBA ROBERT";
 const meta = {
     title: "Jeba Robert",
-    description: "I’m Jeba Robert devOps _ Full stack devloper,currently working in Berlin",
+    description: "I’m Jeba Robert _ DevOps Engineer, currently working in India",
 };
 
 const introdata = {
@@ -25,19 +25,14 @@ const dataabout = {
     aboutme: "Dedicated DevOps engineer with 5 years of professional expertise, with a focus on DevOps using cloud platforms, DevOps tools, and Front-End tools. Strongly driven and outcome-oriented leader who coaches teams of more than thirty employees on DevOps technologies. A devoted team player who is great at collaborating with others and who is focused on optimizing a facility's production process.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
+        jobtitle: "Consultant",
+        where: "Capgemini",
+        date: "2022-Present",
+    },
+    {
+        jobtitle: "Engineer - Cloud & Infra Services",
+        where: "LTI",
         date: "2020",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
     },
 ];
 
