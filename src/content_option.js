@@ -1,3 +1,7 @@
+import { SiAnsible, SiKubernetes, SiPowershell, SiMicrosoftazure, SiTerraform } from "react-icons/si";
+import { DiJenkins } from "react-icons/di";
+import { FaGitlab, FaReact, FaDocker, FaPython, FaAws } from "react-icons/fa";
+
 const logotext = "JEBA ROBERT";
 const meta = {
     title: "Jeba Robert",
@@ -12,7 +16,7 @@ const introdata = {
         third: "of continual improvement",
     },
     description: "Experienced Software Engineer with a demonstrated history of working in Devops. Skilled in Ansible, Jenkins, Terraform, Gitlab, Powershell, Python, Docker, Kubernetes, React JS, ServiceNow, Azure DevOps and AWS.",
-    resume: "Checkout my updated resume here",
+    resume: "Checkout my updated resume",
     // your_img_url: "jeba.jpg",
 };
 
@@ -39,42 +43,57 @@ const worktimeline = [{
 
 const skills = [{
         name: "Ansible",
+        icon: <SiAnsible size={50}/>,
         value: 90,
     },
     {
         name: "Jenkins",
+        icon: <DiJenkins size={50}/>,
         value: 85,
     },
     {
         name: "Gitlab",
+        icon: <FaGitlab size={50}/>,
         value: 85,
     },
     {
         name: "React",
+        icon: <FaReact size={50}/>,
         value: 65,
     },
     {
+        name: "Terraform",
+        icon: <SiTerraform  size={50}/>,
+        value: 85,
+    },
+    {
         name: "Docker",
+        icon: <FaDocker size={50}/>,
         value: 85,
     },
     {
         name: "Kubernetes",
+        icon: <SiKubernetes size={50}/>,
         value: 70,
     },
     {
         name: "Powershell",
+        icon: <SiPowershell size={50}/>,
         value: 85,
     },
     {
         name: "Python",
+        icon: <FaPython size={50}/>,
         value: 80,
     },
     {
         name: "AWS (EC2, VPC, S3, IAM, EBS, RDS)",
+        icon: <FaAws size={50}/>,
         value: 85,
     },
     {
         name: "Azure ",
+        icon: <SiMicrosoftazure size={50}/>,
         value: 80,
     },
 ];
@@ -112,7 +131,7 @@ const awards = [{
     description1: "SIES (2021)",
  },
  {
-    title: "Geeta Israani Scholarship Award i",
+    title: "Geeta Israani Scholarship Award",
     description1: "SIES (2019)",
  },
 ];

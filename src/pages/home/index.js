@@ -5,6 +5,7 @@ import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
 import "../../jeba1.jpg";
+import "../../JebaRobert.pdf";
 
 const logo = require('../../jeba1.jpg'); // with require
 export const Home = () => {
@@ -40,7 +41,7 @@ export const Home = () => {
                   />
                 </h1>
                 <p className="mb-1x">{introdata.description}</p>
-                <p className="mb-1x">{introdata.resume} <a href="Jeba Robert.pdf" target="_blank">here</a></p>
+                <p className="mb-1x">{introdata.resume} <a href="../../JebaRobert.pdf" target="_blank">here</a></p>
                 <div className="intro_btn-action pb-5">
                   <Link to="/portfolio" className="text_2">
                     <div id="button_p" className="ac_btn btn ">

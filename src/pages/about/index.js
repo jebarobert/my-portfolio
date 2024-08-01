@@ -1,6 +1,11 @@
 import React from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
+import { FaTimeline, FaAward } from "react-icons/fa6";
+import { VscLightbulbSparkle } from "react-icons/vsc";
+import { FaUserGraduate, FaGem } from "react-icons/fa";
+import { SlNote } from "react-icons/sl";
+import { GiDiamondTrophy } from "react-icons/gi";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   dataabout,
@@ -11,7 +16,6 @@ import {
   awards,
   certificates,
 } from "../../content_option";
-import "fontawesome";
 
 export const About = () => {
   return (
@@ -30,8 +34,8 @@ export const About = () => {
         </Row>
         <Row className="sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4"><i class="fa fa-list-alt" aria-hidden="true">{dataabout.title}</i></h3>
-            
+            <SlNote size={70} />
+            <h3 className="color_sec py-4">{dataabout.title}</h3>
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <div>
@@ -41,10 +45,11 @@ export const About = () => {
         </Row>
         <Row className=" sec_sp">
           <Col lg="5">
+           <FaTimeline size={70}/>
             <h3 className="color_sec py-4">Work Timline</h3>
           </Col>
           <Col lg="7">
-            <table className="table caption-top">
+            <table className="table sec_spcaption-top">
               <tbody>
                 {worktimeline.map((data, i) => {
                   return (
@@ -61,13 +66,14 @@ export const About = () => {
         </Row>
         <Row className="sec_sp">
           <Col lg="5">
+          <VscLightbulbSparkle size={70} />
             <h3 className="color_sec py-4">Skills</h3>
           </Col>
           <Col lg="7">
             {skills.map((data, i) => {
               return (
                 <div key={i}>
-                  <h3 className="progress-title">{data.name}</h3>
+                  <h3 className="progress-title">{data.icon}&nbsp;&nbsp;{data.name}</h3>
                   <div className="progress">
                     <div
                       className="progress-bar"
@@ -85,6 +91,7 @@ export const About = () => {
         </Row>
         <Row className="sec_sp">
           <Col lang="5">
+            <FaUserGraduate size={70} />
             <h3 className="color_sec py-4">Education</h3>
           </Col>
           <Col lg="7">
@@ -108,13 +115,14 @@ export const About = () => {
 {/* Code for Awards */}
         <Row className="sec_sp">
           <Col lang="5">
+            <GiDiamondTrophy size={70}/>
             <h3 className="color_sec py-4">Awards</h3>
           </Col>
           <Col lg="7">
             {awards.map((data, i) => {
               return (
                 <div className="service_ py-4" key={i}>
-                  <h5 className="service__title">{data.title}</h5>
+                  <h5 className="service__title">{data.title}&nbsp;&nbsp;<FaGem size={30}/></h5>
                   <p className="service_desc">{data.description1}</p>
                 </div>
               );
@@ -124,13 +132,13 @@ export const About = () => {
 {/* Code for Certificates */}
 <Row className="sec_sp">
           <Col lang="5">
-            <h3 className="color_sec py-4">Certifications</h3>
+          <FaAward size={70}/>
+          <h3 className="color_sec py-4">Certifications</h3>
           </Col>
           <Col lg="7">
             {certificates.map((data, i) => {
               return (
                 <div className="service_ py-4" key={i}>
-                  {/* <h5 className="service__title">{data.title}</h5> */}
                   <li className="service_desc">{data.description1}</li>
                 </div>
               );
