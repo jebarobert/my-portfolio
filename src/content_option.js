@@ -1,13 +1,26 @@
 import { SiAnsible, SiKubernetes, SiPowershell, SiMicrosoftazure, SiTerraform } from "react-icons/si";
 import { DiJenkins } from "react-icons/di";
 import { FaGitlab, FaReact, FaDocker, FaPython, FaAws } from "react-icons/fa";
+import AZ900 from "../src/Images/AZ-900.png";
+import AZ104 from "../src/Images/AZ-104.png";
+import bestmgr from "../src/Images/Best_Manager.png";
+import github_pg from "../src/Images/github_page.png";
+import c_container from "../src/Images/coursera_containers.png";
+import dex_award from "../src/Images/DEX_award1.png";
+import dex_award1 from "../src/Images/DEX_award.jpg";
+import dex_pdf from "../src/Images/CertificateofAppreciation.pdf";
+import dex_wish from "../src/Images/dex_wishes.jpg";
+import isprint from "../src/Images/i-SPRINT2023.pdf";
+import cg_anniversary from "../src/Images/CG_1year.png";
+import isprint_img from "../src/Images/isprint.png";
+import gi_award from "../src/Images/GeetaIsrani.jpg";
+import udemy_ansible from "../src/Images/udemy_ansible.png";
 
 const logotext = "JEBA ROBERT";
 const meta = {
     title: "Jeba Robert",
     description: "I’m Jeba Robert _ DevOps Engineer, currently working in India",
 };
-
 const introdata = {
     title: "I’m Jeba {DevOps Engineer}",
     animated: {
@@ -130,100 +143,93 @@ const awards = [{
     description1: "SIES (2019)",
  },
 ];
-const certificates = [{
-    description1: "LTI Certified Cloud & Infrastructure Services Professional",
- },
- {
-    description1: "Fundamentals of Database System (NPtel Online Certification) Percentage: 70%",
- },
- {
-    description1: "Demystifying Networking (NPtel Online Certification) Percentage: 78%",
- },
- {
-    description1: "Advanced Relational Database and SQL(Coursera) Grade Achieved: 90%",
- },
- {
-    description1: "Getting Started with Google Apps Script (Coursera) Grade Achieved: 100%",
- },
- {
-    description1: "Introduction to Python Scripting for DevOps (Coursera) Grade Achieved: 90%",
- },
- {
-    description1: "Business Analytics for Decision-Making (Coursera) Grade Achieved: 93.65%",
- },
- {
-    description1: "Microsoft Certified: Azure Fundamentals",
- },
- {
-    description1: "Microsoft Certified: Microsoft Azure Administrator Associate",
- },
- {
-    description1: "Getting Started with Azure DevOps Boards (Coursera)",
- },
- {
-    description1: " Containerization I/O Docker, Kubernetes, OpenShift (Coursera)",
- },
+const certificates = [
+    {description1: "LTI Certified Cloud & Infrastructure Services Professional",},
+    {description1: "Fundamentals of Database System (NPtel Online Certification) Percentage: 70%",},
+    {description1: "Demystifying Networking (NPtel Online Certification) Percentage: 78%",},
+    {description1: "Advanced Relational Database and SQL(Coursera) Grade Achieved: 90%",},
+    {description1: "Getting Started with Google Apps Script (Coursera) Grade Achieved: 100%",},
+    {description1: "Introduction to Python Scripting for DevOps (Coursera) Grade Achieved: 90%",},
+    {description1: "Business Analytics for Decision-Making (Coursera) Grade Achieved: 93.65%",},
+    {description1: "Microsoft Certified: Azure Fundamentals",},
+    {description1: "Microsoft Certified: Microsoft Azure Administrator Associate",},
+    {description1: "Getting Started with Azure DevOps Boards (Coursera)",},
+    {description1: "Containerization I/O Docker, Kubernetes, OpenShift (Coursera)",},
 ];
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: `${AZ900}` ,
+        description: "Microsoft Certified: Azure Fundamentals",
+        link: "https://www.credly.com/badges/dd849a08-d37f-42db-862d-8061906289c9?source=linked_in_profile",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: `${AZ104}`,
+        description: "Microsoft Certified: Azure Administrator Associate",
+        link: "https://www.credly.com/badges/d702e8e6-a494-4776-878e-74017879e544?source=linked_in_profile",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: `${bestmgr}`,
+        description: "Best Manager's Award from LTI CIS Academy (2021)",
+        link: "https://www.linkedin.com/posts/activity-6884886528976400384-v1ZM?utm_source=share&utm_medium=member_desktop",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: `${dex_award1}`,
+        description: "DEX Award Wishes",
+        link: `${dex_wish}`,
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: `${github_pg}`,
+        description: "My github projects",
+        link: "https://github.com/jebarobert",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: `${c_container}`,
+        description: "Introduction to Containers w/ Docker, Kubernetes & OpenShift",
+        link: "https://coursera.org/share/6e5a037d27f38826bad6e42f23997cca",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: `${dex_award}`,
+        description: "Delivery Excellence Award (Capgemini) (2023)",
+        link: `${dex_pdf}`,
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: `${cg_anniversary}`,
+        description: "It's my 1st Anniversary at Capgemini!",
+        link: `${cg_anniversary}`,
     },
     {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: `${isprint}`,
+        description: "iSprint 2023 - Automation at a Glance",
+        link: `${isprint_img}`,
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: `${gi_award}`,
+        description: "Geeta Israani Scholarship Award in TY (2019)",
+        link: `${gi_award}`,
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: `${udemy_ansible}`,
+        description: "Complete DevOps Ansible Automation Training",
+        link: "https://www.udemy.com/certificate/UC-c27db1c0-ec6e-44cb-aee1-89e10ca8d199/",
+    },
+    {
+        img: ``,
+        description: "",
+        link: "",
+    },
+    {
+        img: ``,
+        description: "",
+        link: "",
+    },
+    {
+        img: ``,
+        description: "",
+        link: "",
+    },
+    {
+        img: ``,
+        description: "",
+        link: "",
     },
 ];
 
