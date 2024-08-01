@@ -1,7 +1,7 @@
 const logotext = "JEBA ROBERT";
 const meta = {
     title: "Jeba Robert",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    description: "I’m Jeba Robert devOps _ Full stack devloper,currently working in Berlin",
 };
 
 const introdata = {
@@ -13,11 +13,11 @@ const introdata = {
     },
     description: "Experienced Software Engineer with a demonstrated history of working in Devops. Skilled in Ansible, Jenkins, Terraform, Gitlab, Powershell, Python, Docker, Kubernetes, React JS, ServiceNow, Azure DevOps and AWS.",
     resume: "Checkout my updated resume here",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    // your_img_url: "jeba.jpg",
 };
 
 const dataabout = {
-    title: "abit about my self",
+    title: "A bit about my self",
     aboutme: "Dedicated DevOps engineer with 5 years of professional expertise, with a focus on DevOps using cloud platforms, DevOps tools, and Front-End tools. Strongly driven and outcome-oriented leader who coaches teams of more than thirty employees on DevOps technologies. A devoted team player who is great at collaborating with others and who is focused on optimizing a facility's production process.",
 };
 const worktimeline = [{
@@ -38,41 +38,118 @@ const worktimeline = [{
 ];
 
 const skills = [{
-        name: "Python",
+        name: "Ansible",
         value: 90,
     },
     {
-        name: "Djano",
+        name: "Jenkins",
         value: 85,
     },
     {
-        name: "Javascript",
-        value: 80,
+        name: "Gitlab",
+        value: 85,
     },
     {
         name: "React",
-        value: 60,
+        value: 65,
     },
     {
-        name: "Jquery",
+        name: "Docker",
         value: 85,
+    },
+    {
+        name: "Kubernetes",
+        value: 70,
+    },
+    {
+        name: "Powershell",
+        value: 85,
+    },
+    {
+        name: "Python",
+        value: 80,
+    },
+    {
+        name: "AWS (EC2, VPC, S3, IAM, EBS, RDS)",
+        value: 85,
+    },
+    {
+        name: "Azure ",
+        value: 80,
     },
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Master of Science - IT (SIES College of Arts, Science and Commerce) 2021",
+        description1: "Percentage: 93.4% (CGPA: 9.83) (Rank 1)",
+        description2: "Research Paper: Mobile games: Expectations and Interests of the users",
+        description3: "Projects:",
+        description3_1: "Fake Product Identification System (Android Studio, Java, MySql, Blockchain),", 
+        description3_2: "Embellish English (React JS, Bootstrap)",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Bachelor of Science - IT (SIES College of Arts, Science and Commerce) 2019",
+        description1: "Percentage: 82.65% (CGPA:8.7)",
+        description3: "Project:",
+        description3_1: "Online Sweets Shop (Madhuram) (ASP.NET, C#, MySQL, Bootstrap)",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "HSC - Science (SIES College of Arts, Science and Commerce) 2016",
+        description1: "Percentage: 77.85%",
     },
 ];
 
+const awards = [{
+    title: "Delivery Excellence Award",
+    description1: "Capgemini (2023)",
+ },
+ {
+    title: "Best Manager's Award",
+    description1: "LTI CIS Academy (2021)",
+ },
+ {
+    title: "Endowment Award - First Rank in M.Sc. IT",
+    description1: "SIES (2021)",
+ },
+ {
+    title: "Geeta Israani Scholarship Award i",
+    description1: "SIES (2019)",
+ },
+];
+const certificates = [{
+    description1: "LTI Certified Cloud & Infrastructure Services Professional",
+ },
+ {
+    description1: "Fundamentals of Database System (NPtel Online Certification) Percentage: 70%",
+ },
+ {
+    description1: "Demystifying Networking (NPtel Online Certification) Percentage: 78%",
+ },
+ {
+    description1: "Advanced Relational Database and SQL(Coursera) Grade Achieved: 90%",
+ },
+ {
+    description1: "Getting Started with Google Apps Script (Coursera) Grade Achieved: 100%",
+ },
+ {
+    description1: "Introduction to Python Scripting for DevOps (Coursera) Grade Achieved: 90%",
+ },
+ {
+    description1: "Business Analytics for Decision-Making (Coursera) Grade Achieved: 93.65%",
+ },
+ {
+    description1: "Microsoft Certified: Azure Fundamentals",
+ },
+ {
+    description1: "Microsoft Certified: Microsoft Azure Administrator Associate",
+ },
+ {
+    description1: "Getting Started with Azure DevOps Boards (Coursera)",
+ },
+ {
+    description1: " Containerization I/O Docker, Kubernetes, OpenShift (Coursera)",
+ },
+];
 const dataportfolio = [{
         img: "https://picsum.photos/400/?grayscale",
         description: "The wisdom of life consists in the elimination of non-essentials.",
@@ -153,6 +230,8 @@ export {
     worktimeline,
     skills,
     services,
+    awards,
+    certificates,
     introdata,
     contactConfig,
     socialprofils,

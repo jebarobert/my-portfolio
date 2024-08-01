@@ -8,7 +8,10 @@ import {
   worktimeline,
   skills,
   services,
+  awards,
+  certificates,
 } from "../../content_option";
+import "fontawesome";
 
 export const About = () => {
   return (
@@ -27,7 +30,8 @@ export const About = () => {
         </Row>
         <Row className="sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">{dataabout.title}</h3>
+            <h3 className="color_sec py-4"><i class="fa fa-list-alt" aria-hidden="true">{dataabout.title}</i></h3>
+            
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <div>
@@ -81,14 +85,53 @@ export const About = () => {
         </Row>
         <Row className="sec_sp">
           <Col lang="5">
-            <h3 className="color_sec py-4">services</h3>
+            <h3 className="color_sec py-4">Education</h3>
           </Col>
           <Col lg="7">
             {services.map((data, i) => {
               return (
                 <div className="service_ py-4" key={i}>
                   <h5 className="service__title">{data.title}</h5>
-                  <p className="service_desc">{data.description}</p>
+                  <p className="service_desc">{data.description1}</p>
+                  <p className="service_desc">{data.description2}</p>
+                  <p className="service_desc">{data.description3}
+                    <ul>
+                      <li> { data.description3_1 }</li>
+                      <li> { data.description3_2 }</li>
+                    </ul>
+                  </p>
+                </div>
+              );
+            })}
+          </Col>
+        </Row>
+{/* Code for Awards */}
+        <Row className="sec_sp">
+          <Col lang="5">
+            <h3 className="color_sec py-4">Awards</h3>
+          </Col>
+          <Col lg="7">
+            {awards.map((data, i) => {
+              return (
+                <div className="service_ py-4" key={i}>
+                  <h5 className="service__title">{data.title}</h5>
+                  <p className="service_desc">{data.description1}</p>
+                </div>
+              );
+            })}
+          </Col>
+        </Row>
+{/* Code for Certificates */}
+<Row className="sec_sp">
+          <Col lang="5">
+            <h3 className="color_sec py-4">Certifications</h3>
+          </Col>
+          <Col lg="7">
+            {certificates.map((data, i) => {
+              return (
+                <div className="service_ py-4" key={i}>
+                  {/* <h5 className="service__title">{data.title}</h5> */}
+                  <li className="service_desc">{data.description1}</li>
                 </div>
               );
             })}
