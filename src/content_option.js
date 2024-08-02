@@ -233,11 +233,6 @@ const dataportfolio = [{
     },
 ];
 
-const contactConfig = {
-    YOUR_EMAIL: "jebasalomi199835@gmail.com",
-    YOUR_FONE: "(+91) AVAILABLE UPON REQUEST",
-};
-
 const socialprofils = {
     github: "https://github.com/jebarobert",
     facebook: "https://facebook.com",
@@ -253,7 +248,6 @@ export {
     awards,
     certificates,
     introdata,
-    contactConfig,
     socialprofils,
     logotext,
 };
