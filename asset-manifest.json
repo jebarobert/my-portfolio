@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.7ecc1641.css",
-    "main.js": "/my-portfolio/static/js/main.f1885aa4.js",
+    "main.css": "/my-portfolio/static/css/main.25970b47.css",
+    "main.js": "/my-portfolio/static/js/main.5be74e50.js",
     "static/media/DEX_award1.png": "/my-portfolio/static/media/DEX_award1.acfe86ac65fe659faadc.png",
     "static/media/GeetaIsrani.jpg": "/my-portfolio/static/media/GeetaIsrani.847e7e841d10e2442b43.jpg",
     "static/media/i-SPRINT2023.pdf": "/my-portfolio/static/media/i-SPRINT2023.d17f0f79a7d3dedd3074.pdf",
@@ -19,11 +19,11 @@
     "static/media/AZ-104.png": "/my-portfolio/static/media/AZ-104.3cd72786fbd727c0e0eb.png",
     "static/media/AZ-900.png": "/my-portfolio/static/media/AZ-900.767d49f3016a9ad9b2f1.png",
     "index.html": "/my-portfolio/index.html",
-    "main.7ecc1641.css.map": "/my-portfolio/static/css/main.7ecc1641.css.map",
-    "main.f1885aa4.js.map": "/my-portfolio/static/js/main.f1885aa4.js.map"
+    "main.25970b47.css.map": "/my-portfolio/static/css/main.25970b47.css.map",
+    "main.5be74e50.js.map": "/my-portfolio/static/js/main.5be74e50.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ecc1641.css",
-    "static/js/main.f1885aa4.js"
+    "static/css/main.25970b47.css",
+    "static/js/main.5be74e50.js"
   ]
 }
