@@ -15,6 +15,8 @@ import cg_anniversary from "../src/Images/CG_1year.png";
 import isprint_img from "../src/Images/isprint.png";
 import gi_award from "../src/Images/GeetaIsrani.jpg";
 import udemy_ansible from "../src/Images/udemy_ansible.png";
+import c_dq_sql from "../src/Images/coursera_db_sql.png";
+import c_busi_analytics from "../src/Images/coursera_BAnalytics.png";
 
 const logotext = "JEBA ROBERT";
 const meta = {
@@ -212,14 +214,14 @@ const dataportfolio = [{
         link: "https://www.udemy.com/certificate/UC-c27db1c0-ec6e-44cb-aee1-89e10ca8d199/",
     },
     {
-        img: ``,
-        description: "",
-        link: "",
+        img: `${c_dq_sql}`,
+        description: "Advanced Relational Database and SQL",
+        link: "https://www.coursera.org/account/accomplishments/certificate/M4VYWPKKHUKT",
     },
     {
-        img: ``,
-        description: "",
-        link: "",
+        img: `${c_busi_analytics}`,
+        description: "Business Analytics for Decision Making",
+        link: "https://www.coursera.org/account/accomplishments/certificate/P8M6ASR55DFK",
     },
     {
         img: ``,
