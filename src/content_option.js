@@ -17,6 +17,10 @@ import gi_award from "../src/Images/GeetaIsrani.jpg";
 import udemy_ansible from "../src/Images/udemy_ansible.png";
 import c_dq_sql from "../src/Images/coursera_db_sql.png";
 import c_busi_analytics from "../src/Images/coursera_BAnalytics.png";
+import project_video from "../src/Images/proj_video.mp4";
+import project_image from "../src/Images/proj_img.png";
+import a_practitioner from "../src/Images/Automation Practitioner.pdf";
+import a_prac_img from "../src/Images/Automation_practitioner.png"
 
 const logotext = "JEBA ROBERT";
 const meta = {
@@ -224,14 +228,14 @@ const dataportfolio = [{
         link: "https://www.coursera.org/account/accomplishments/certificate/P8M6ASR55DFK",
     },
     {
-        img: ``,
-        description: "",
-        link: "",
+        img: `${project_image}`,
+        description: "Graduation Project at Glance",
+        link: `${project_video}`,
     },
     {
-        img: ``,
-        description: "",
-        link: "",
+        img: `${a_prac_img}`,
+        description: "Automation Practitioner Certificate (Capgemini)",
+        link: `${a_practitioner}`,
     },
 ];
 
