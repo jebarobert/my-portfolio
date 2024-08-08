@@ -269,7 +269,7 @@ const dataportfolio = [{
     },
     {
         img: `${awt_img}`,
-        description: "Java Mini Project at a Glance - SY Bachelor's",
+        description: "React Internal Project at a Glance - Master's",
         link: `${awt_video}`,
     },
 ];
