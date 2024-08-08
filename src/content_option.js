@@ -1,6 +1,7 @@
-import { SiAnsible, SiKubernetes, SiPowershell, SiMicrosoftazure, SiTerraform } from "react-icons/si";
+import { SiAnsible, SiKubernetes, SiPowershell, SiMicrosoftazure, SiTerraform, SiMysql, SiVault } from "react-icons/si";
 import { DiJenkins } from "react-icons/di";
-import { FaGitlab, FaReact, FaDocker, FaPython, FaAws } from "react-icons/fa";
+import { FaGitlab, FaReact, FaDocker, FaPython, FaAws, FaBootstrap } from "react-icons/fa";
+import { TbApi } from "react-icons/tb";
 import AZ900 from "../src/Images/AZ-900.png";
 import AZ104 from "../src/Images/AZ-104.png";
 import bestmgr from "../src/Images/Best_Manager.png";
@@ -20,12 +21,16 @@ import c_busi_analytics from "../src/Images/coursera_BAnalytics.png";
 import project_video from "../src/Images/proj_video.mp4";
 import project_image from "../src/Images/proj_img.png";
 import a_practitioner from "../src/Images/Automation Practitioner.pdf";
-import a_prac_img from "../src/Images/Automation_practitioner.png"
+import a_prac_img from "../src/Images/Automation_practitioner.png";
+import java_proj_img from "../src/Images/4pic1word.png";
+import java_proj_pdf from "../src/Images/JavaMiniProject.pdf";
+import awt_video from "../src/Images/Embellish_English.mp4";
+import awt_img from "../src/Images/Embellish_english_img.png";
 
 const logotext = "JEBA ROBERT";
 const meta = {
     title: "Jeba Robert",
-    description: "I’m Jeba Robert _ DevOps Engineer, currently working in India",
+    description: "I’m Jeba Robert _ DevOps Engineer, currently working at Capgemini",
 };
 const introdata = {
     title: "I’m Jeba {DevOps Engineer}",
@@ -50,8 +55,8 @@ const worktimeline = [{
     },
     {
         jobtitle: "Engineer - Cloud & Infra Services",
-        where: "LTI",
-        date: "2020",
+        where: "LTI (LnT Infotech)",
+        date: "2020 - 2022",
     },
 ];
 
@@ -91,6 +96,11 @@ const skills = [{
         value: 70,
     },
     {
+        name: "Rest Api",
+        icon: <TbApi size={50}/>,
+        value: 70,
+    },
+    {
         name: "Powershell",
         icon: <SiPowershell size={50}/>,
         value: 85,
@@ -101,6 +111,11 @@ const skills = [{
         value: 80,
     },
     {
+        name: "Hashicorp Vault",
+        icon: <SiVault size={50}/>,
+        value: 65,
+    },
+    {
         name: "AWS (EC2, VPC, S3, IAM, EBS, RDS)",
         icon: <FaAws size={50}/>,
         value: 85,
@@ -109,6 +124,16 @@ const skills = [{
         name: "Azure ",
         icon: <SiMicrosoftazure size={50}/>,
         value: 80,
+    },
+    {
+        name: "Bootstrap",
+        icon: <FaBootstrap size={50}/>,
+        value: 70,
+    },
+    {
+        name: "MySQL",
+        icon: <SiMysql size={50}/>,
+        value: 65,
     },
 ];
 
@@ -157,8 +182,8 @@ const certificates = [
     {description1: "Getting Started with Google Apps Script (Coursera) Grade Achieved: 100%",},
     {description1: "Introduction to Python Scripting for DevOps (Coursera) Grade Achieved: 90%",},
     {description1: "Business Analytics for Decision-Making (Coursera) Grade Achieved: 93.65%",},
-    {description1: "Microsoft Certified: Azure Fundamentals",},
-    {description1: "Microsoft Certified: Microsoft Azure Administrator Associate",},
+    {description1: "Microsoft Certified: Azure Fundamentals (AZ900)",},
+    {description1: "Microsoft Certified: Microsoft Azure Administrator Associate (AZ104)",},
     {description1: "Getting Started with Azure DevOps Boards (Coursera)",},
     {description1: "Containerization I/O Docker, Kubernetes, OpenShift (Coursera)",},
 ];
@@ -203,9 +228,9 @@ const dataportfolio = [{
         link: `${cg_anniversary}`,
     },
     {
-        img: `${isprint}`,
+        img: `${isprint_img}`,
         description: "iSprint 2023 - Automation at a Glance",
-        link: `${isprint_img}`,
+        link: `${isprint}`,
     },
     {
         img: `${gi_award}`,
@@ -236,6 +261,16 @@ const dataportfolio = [{
         img: `${a_prac_img}`,
         description: "Automation Practitioner Certificate (Capgemini)",
         link: `${a_practitioner}`,
+    },
+    {
+        img: `${java_proj_img}`,
+        description: "Java Mini Project at a Glance - SY Bachelor's",
+        link: `${java_proj_pdf}`,
+    },
+    {
+        img: `${awt_img}`,
+        description: "Java Mini Project at a Glance - SY Bachelor's",
+        link: `${awt_video}`,
     },
 ];
 
