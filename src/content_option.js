@@ -26,6 +26,8 @@ import java_proj_img from "../src/Images/4pic1word.png";
 import java_proj_pdf from "../src/Images/JavaMiniProject.pdf";
 import awt_video from "../src/Images/Embellish_English.mp4";
 import awt_img from "../src/Images/Embellish_english_img.png";
+import hsc_award from "../src/Images/HSC_Award1.png";
+import ssc_award from "../src/Images/SSC_Award1.png";
 
 const logotext = "JEBA ROBERT";
 const meta = {
@@ -223,6 +225,16 @@ const dataportfolio = [{
         link: `${dex_pdf}`,
     },
     {
+        img: `${c_dq_sql}`,
+        description: "Advanced Relational Database and SQL",
+        link: "https://www.coursera.org/account/accomplishments/certificate/M4VYWPKKHUKT",
+    },
+    {
+        img: `${hsc_award}`,
+        description: "HSC (Science) - Distinction Award",
+        link: `${hsc_award}`,
+    },
+    {
         img: `${cg_anniversary}`,
         description: "It's my 1st Anniversary at Capgemini!",
         link: `${cg_anniversary}`,
@@ -243,9 +255,9 @@ const dataportfolio = [{
         link: "https://www.udemy.com/certificate/UC-c27db1c0-ec6e-44cb-aee1-89e10ca8d199/",
     },
     {
-        img: `${c_dq_sql}`,
-        description: "Advanced Relational Database and SQL",
-        link: "https://www.coursera.org/account/accomplishments/certificate/M4VYWPKKHUKT",
+        img: `${ssc_award}`,
+        description: "SSC - Distinction Award",
+        link: `${ssc_award}`,
     },
     {
         img: `${c_busi_analytics}`,
