@@ -1,9 +1,11 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.2acb6d75.css",
-    "main.js": "/my-portfolio/static/js/main.c6ec4b19.js",
+    "main.js": "/my-portfolio/static/js/main.2a147534.js",
     "static/media/Embellish_English.mp4": "/my-portfolio/static/media/Embellish_English.43420c5b479c496490bb.mp4",
     "static/media/proj_video.mp4": "/my-portfolio/static/media/proj_video.7b62862ec108f95a8abc.mp4",
+    "static/media/HSC_Award1.png": "/my-portfolio/static/media/HSC_Award1.5e5d1be288df9f6d0be6.png",
+    "static/media/SSC_Award1.png": "/my-portfolio/static/media/SSC_Award1.e7064e1e6b9c50e28501.png",
     "static/media/proj_img.png": "/my-portfolio/static/media/proj_img.e0131981fe5a23d4b6f7.png",
     "static/media/DEX_award1.png": "/my-portfolio/static/media/DEX_award1.acfe86ac65fe659faadc.png",
     "static/media/GeetaIsrani.jpg": "/my-portfolio/static/media/GeetaIsrani.847e7e841d10e2442b43.jpg",
@@ -30,10 +32,10 @@
     "static/media/AZ-900.png": "/my-portfolio/static/media/AZ-900.767d49f3016a9ad9b2f1.png",
     "index.html": "/my-portfolio/index.html",
     "main.2acb6d75.css.map": "/my-portfolio/static/css/main.2acb6d75.css.map",
-    "main.c6ec4b19.js.map": "/my-portfolio/static/js/main.c6ec4b19.js.map"
+    "main.2a147534.js.map": "/my-portfolio/static/js/main.2a147534.js.map"
   },
   "entrypoints": [
     "static/css/main.2acb6d75.css",
-    "static/js/main.c6ec4b19.js"
+    "static/js/main.2a147534.js"
   ]
 }
