@@ -140,7 +140,7 @@ export const About = () => {
             {certificates.map((data, i) => {
               return (
                 <div className="service_ py-4" key={i}>
-                  <li className="service_desc"><a href={data.link}>{data.description1}</a></li>
+                  <li className="service_desc">{data.icon}<a href={data.link}>{data.description1}</a></li>
                 </div>
               );
             })}
