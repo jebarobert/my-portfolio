@@ -7,6 +7,7 @@ import { FaUserGraduate, FaGem } from "react-icons/fa";
 import { SlNote } from "react-icons/sl";
 import { GiDiamondTrophy } from "react-icons/gi";
 import { Container, Row, Col } from "react-bootstrap";
+
 import {
   dataabout,
   meta,
@@ -139,7 +140,7 @@ export const About = () => {
             {certificates.map((data, i) => {
               return (
                 <div className="service_ py-4" key={i}>
-                  <li className="service_desc">{data.description1}</li>
+                  <li className="service_desc"><a href={data.link}>{data.description1}</a></li>
                 </div>
               );
             })}
