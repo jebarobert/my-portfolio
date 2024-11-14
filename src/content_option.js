@@ -1,4 +1,4 @@
-import { SiAnsible, SiKubernetes, SiPowershell, SiMicrosoftazure, SiTerraform, SiMysql, SiVault, SiUdemy, SiCoursera } from "react-icons/si";
+import { SiAnsible, SiKubernetes, SiPowershell, SiMicrosoftazure, SiTerraform, SiMysql, SiVault, SiUdemy, SiCoursera, SiIbmcloud } from "react-icons/si";
 import { DiJenkins } from "react-icons/di";
 import { BiSolidNetworkChart } from "react-icons/bi";
 import { FaGitlab, FaReact, FaDocker, FaPython, FaAws, FaBootstrap, FaSuitcase, FaDatabase } from "react-icons/fa";
@@ -33,7 +33,7 @@ import ssc_award from "../src/Images/SSC_Award1.png";
 const logotext = "JEBA ROBERT";
 const meta = {
     title: "Jeba Robert",
-    description: "I’m Jeba Robert _ DevOps Engineer, currently working at Capgemini",
+    description: "I’m Jeba Robert _ DevOps Engineer, currently working at BNP Paribas",
 };
 const introdata = {
     title: "I’m Jeba {DevOps Engineer}",
@@ -49,17 +49,22 @@ const introdata = {
 
 const dataabout = {
     title: "A bit about my self",
-    aboutme: "Dedicated DevOps engineer with 5 years of professional expertise, with a focus on DevOps using cloud platforms, DevOps tools, and Front-End tools. Strongly driven and outcome-oriented leader who coaches teams of more than thirty employees on DevOps technologies. A devoted team player who is great at collaborating with others and who is focused on optimizing a facility's production process.",
+    aboutme: "Dedicated DevOps engineer with 5+ years of professional expertise, with a focus on DevOps using cloud platforms, DevOps tools, and Front-End tools. Strongly driven and outcome-oriented leader who coaches teams of more than thirty employees on DevOps technologies. A devoted team player who is great at collaborating with others and who is focused on optimizing a facility's production process.",
 };
 const worktimeline = [{
+        jobtitle: "Senior Associate",
+        where: "BNP Paribas",
+        date: "10/2024-Present",
+    },
+    {
         jobtitle: "Consultant",
         where: "CAPGEMINI TECHNOLOGY SERVICES",
-        date: "08/2022-Present",
+        date: "08/2022-10/2024",
     },
     {
         jobtitle: "Engineer - Cloud & Infra Services",
         where: "LTI (LTI Mindtree)",
-        date: "01/2020 - 08/2022",
+        date: "01/2020-08/2022",
     },
 ];
 
@@ -137,6 +142,11 @@ const skills = [{
         name: "MySQL",
         icon: <SiMysql size={50}/>,
         value: 65,
+    },
+    {
+        name: "IBM Cloud",
+        icon: <SiIbmcloud size={50}/>,
+        value: 50,
     },
 ];
 
