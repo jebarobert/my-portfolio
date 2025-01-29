@@ -49,7 +49,7 @@ const introdata = {
 
 const dataabout = {
     title: "A bit about my self",
-    aboutme: "Dedicated DevOps Tech Lead with 5.5+ years of professional expertise, with a focus on DevOps using cloud platforms, DevOps tools, and Front-End tools. Strongly driven and outcome-oriented leader who coaches teams of more than thirty employees on DevOps technologies. A devoted team player who is great at collaborating with others and who is focused on optimizing a facility's production process.",
+    aboutme: "Dedicated DevOps Tech Lead with 5+ years of professional expertise, with a focus on DevOps using cloud platforms, DevOps tools, and Front-End tools. Strongly driven and outcome-oriented leader who coaches teams of more than thirty employees on DevOps technologies. A devoted team player who is great at collaborating with others and who is focused on optimizing a facility's production process.",
 };
 const worktimeline = [{
         jobtitle: "Senior Associate (Tech Lead)",
