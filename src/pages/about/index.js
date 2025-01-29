@@ -34,22 +34,22 @@ export const About = () => {
           </Col>
         </Row>
         <Row className="sec_sp">
-          <Col lg="5">
+          <Col lg="4">
             <SlNote size={70} />
             <h3 className="color_sec py-4">{dataabout.title}</h3>
           </Col>
-          <Col lg="7" className="d-flex align-items-center">
+          <Col lg="8" className="d-flex align-items-center">
             <div>
               <p>{dataabout.aboutme}</p>
             </div>
           </Col>
         </Row>
         <Row className=" sec_sp">
-          <Col lg="5">
+          <Col lg="4">
            <FaTimeline size={70}/>
             <h3 className="color_sec py-4">Work Timline</h3>
           </Col>
-          <Col lg="7">
+          <Col lg="8">
             <table className="table sec_spcaption-top">
               <tbody>
                 {worktimeline.map((data, i) => {
@@ -66,11 +66,11 @@ export const About = () => {
           </Col>
         </Row>
         <Row className="sec_sp">
-          <Col lg="5">
+          <Col lg="4">
           <VscLightbulbSparkle size={70} />
             <h3 className="color_sec py-4">Skills</h3>
           </Col>
-          <Col lg="7">
+          <Col lg="8">
             {skills.map((data, i) => {
               return (
                 <div key={i}>
@@ -91,11 +91,11 @@ export const About = () => {
           </Col>
         </Row>
         <Row className="sec_sp">
-          <Col lang="5">
+          <Col lang="4">
             <FaUserGraduate size={70} />
             <h3 className="color_sec py-4">Education</h3>
           </Col>
-          <Col lg="7">
+          <Col lg="8">
             {services.map((data, i) => {
               return (
                 <div className="service_ py-4" key={i}>
@@ -115,11 +115,11 @@ export const About = () => {
         </Row>
 {/* Code for Awards */}
         <Row className="sec_sp">
-          <Col lang="5">
+          <Col lang="4">
             <GiDiamondTrophy size={70}/>
             <h3 className="color_sec py-4">Awards</h3>
           </Col>
-          <Col lg="7">
+          <Col lg="8">
             {awards.map((data, i) => {
               return (
                 <div className="service_ py-4" key={i}>
@@ -132,11 +132,11 @@ export const About = () => {
         </Row>
 {/* Code for Certificates */}
 <Row className="sec_sp">
-          <Col lang="5">
+          <Col lang="4">
           <FaAward size={70}/>
           <h3 className="color_sec py-4">Certifications</h3>
           </Col>
-          <Col lg="7">
+          <Col lg="8">
             {certificates.map((data, i) => {
               return (
                 <div className="service_ py-4" key={i}>

@@ -1,4 +1,4 @@
-import { SiAnsible, SiKubernetes, SiPowershell, SiMicrosoftazure, SiTerraform, SiMysql, SiVault, SiUdemy, SiCoursera, SiIbmcloud } from "react-icons/si";
+import { SiAnsible, SiKubernetes, SiPowershell, SiGitlab, SiMicrosoftazure, SiJfrog, SiHelm, SiTerraform, SiMysql, SiVault, SiUdemy, SiCoursera, SiIbmcloud } from "react-icons/si";
 import { DiJenkins } from "react-icons/di";
 import { BiSolidNetworkChart } from "react-icons/bi";
 import { FaGitlab, FaReact, FaDocker, FaPython, FaAws, FaBootstrap, FaSuitcase, FaDatabase } from "react-icons/fa";
@@ -33,7 +33,7 @@ import ssc_award from "../src/Images/SSC_Award1.png";
 const logotext = "JEBA ROBERT";
 const meta = {
     title: "Jeba Robert",
-    description: "I’m Jeba Robert _ DevOps Engineer, currently working at BNP Paribas",
+    description: "I’m Jeba Robert _ DevOps Tech Lead, currently working at BNP Paribas",
 };
 const introdata = {
     title: "I’m Jeba {DevOps Engineer}",
@@ -42,29 +42,29 @@ const introdata = {
         second: "but a never-ending process",
         third: "of continual improvement",
     },
-    description: "Experienced Software Engineer with a demonstrated history of working in Devops. Skilled in Ansible, Jenkins, Terraform, Gitlab, Powershell, Python, Docker, Kubernetes, React JS, ServiceNow, Azure DevOps and AWS.",
+    description: "Experienced DevOps Tech Lead with a demonstrated history of working in Devops. Skilled in Ansible, Jenkins, Terraform, Gitlab, Gitlab CI, Powershell, Python, Docker, Kubernetes, React JS, Hashicorp Vault, ServiceNow, Azure DevOps, IBM Cloud, Helm Chart and AWS.",
     resume: "Checkout my updated resume",
     // your_img_url: "jeba.jpg",
 };
 
 const dataabout = {
     title: "A bit about my self",
-    aboutme: "Dedicated DevOps engineer with 5+ years of professional expertise, with a focus on DevOps using cloud platforms, DevOps tools, and Front-End tools. Strongly driven and outcome-oriented leader who coaches teams of more than thirty employees on DevOps technologies. A devoted team player who is great at collaborating with others and who is focused on optimizing a facility's production process.",
+    aboutme: "Dedicated DevOps Tech Lead with 5.5+ years of professional expertise, with a focus on DevOps using cloud platforms, DevOps tools, and Front-End tools. Strongly driven and outcome-oriented leader who coaches teams of more than thirty employees on DevOps technologies. A devoted team player who is great at collaborating with others and who is focused on optimizing a facility's production process.",
 };
 const worktimeline = [{
-        jobtitle: "Senior Associate",
+        jobtitle: "Senior Associate (Tech Lead)",
         where: "BNP Paribas",
-        date: "10/2024-Present",
+        date: "2024-Present",
     },
     {
         jobtitle: "Consultant",
         where: "CAPGEMINI TECHNOLOGY SERVICES",
-        date: "08/2022-10/2024",
+        date: "2022-2024",
     },
     {
         jobtitle: "Engineer - Cloud & Infra Services",
         where: "LTI (LTI Mindtree)",
-        date: "01/2020-08/2022",
+        date: "2019-2022",
     },
 ];
 
@@ -82,6 +82,11 @@ const skills = [{
         name: "Gitlab",
         icon: <FaGitlab size={50}/>,
         value: 85,
+    },
+    {
+        name: "Gitlab CI",
+        icon: <SiGitlab size={50}/>,
+        value: 80,
     },
     {
         name: "React",
@@ -148,6 +153,16 @@ const skills = [{
         icon: <SiIbmcloud size={50}/>,
         value: 50,
     },
+    {
+        name: "Helm Chart",
+        icon: <SiHelm size={50}/>,
+        value: 70,
+    },
+    {
+        name: "Artifactory",
+        icon: <SiJfrog size={50}/>,
+        value: 65,
+    },
 ];
 
 const services = [{
@@ -176,7 +191,7 @@ const awards = [{
  },
  {
     title: "Best Manager's Award",
-    description1: "LTI CIS Academy (2021)",
+    description1: "LTI CIS Academy (2020)",
  },
  {
     title: "Endowment Award - First Rank in M.Sc. IT",
