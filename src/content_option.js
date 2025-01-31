@@ -64,7 +64,7 @@ const worktimeline = [{
     {
         jobtitle: "Engineer - Cloud & Infra Services",
         where: "LTI (LTI Mindtree)",
-        date: "2019-2022",
+        date: "2020-2022",
     },
 ];
 
