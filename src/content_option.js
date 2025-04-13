@@ -377,7 +377,6 @@ const dataportfolio = [{
 
 const socialprofils = {
     github: "https://github.com/jebarobert",
-    facebook: "https://facebook.com",
     linkedin: "https://www.linkedin.com/in/jeba-robert/",
 };
 export {

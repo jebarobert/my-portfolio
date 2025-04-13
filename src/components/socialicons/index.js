@@ -2,7 +2,6 @@ import React from "react";
 import "./style.css";
 import {
   FaGithub,
-  FaFacebookF,
   FaLinkedin,
 } from "react-icons/fa";
 import { socialprofils } from "../../content_option";
@@ -15,13 +14,6 @@ export const Socialicons = (params) => {
           <li>
             <a href={socialprofils.github}>
               <FaGithub />
-            </a>
-          </li>
-        )}
-        {socialprofils.facebook && (
-          <li>
-            <a href={socialprofils.facebook}>
-              <FaFacebookF />
             </a>
           </li>
         )}
