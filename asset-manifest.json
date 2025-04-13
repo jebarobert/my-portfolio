@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.2acb6d75.css",
-    "main.js": "/my-portfolio/static/js/main.03407682.js",
+    "main.js": "/my-portfolio/static/js/main.badad5a8.js",
     "static/media/Embellish_English.mp4": "/my-portfolio/static/media/Embellish_English.43420c5b479c496490bb.mp4",
     "static/media/proj_video.mp4": "/my-portfolio/static/media/proj_video.7b62862ec108f95a8abc.mp4",
     "static/media/HSC_Award1.png": "/my-portfolio/static/media/HSC_Award1.5e5d1be288df9f6d0be6.png",
@@ -12,6 +12,7 @@
     "static/media/i-SPRINT2023.pdf": "/my-portfolio/static/media/i-SPRINT2023.d17f0f79a7d3dedd3074.pdf",
     "static/media/Embellish_english_img.png": "/my-portfolio/static/media/Embellish_english_img.31e3a0154fcbf2d21b71.png",
     "static/media/CertificateofAppreciation.pdf": "/my-portfolio/static/media/CertificateofAppreciation.d847deb1026ce5ee100a.pdf",
+    "static/media/CG_2year.png": "/my-portfolio/static/media/CG_2year.a69eb1344c1a3f8833e0.png",
     "static/media/JebaRobert.pdf": "/my-portfolio/static/media/JebaRobert.4f9dda6948e80ba50d53.pdf",
     "static/media/coursera_db_sql.png": "/my-portfolio/static/media/coursera_db_sql.bbd34a0fe0331308c566.png",
     "static/media/JavaMiniProject.pdf": "/my-portfolio/static/media/JavaMiniProject.0aa0b5958e976e775f45.pdf",
@@ -22,7 +23,6 @@
     "static/media/dex_wishes.jpg": "/my-portfolio/static/media/dex_wishes.a4ba936f43ad781fd553.jpg",
     "static/media/Automation_practitioner.png": "/my-portfolio/static/media/Automation_practitioner.570f04191ede50a646f5.png",
     "static/media/DEX_award.jpg": "/my-portfolio/static/media/DEX_award.3ac1abbcc71cb1839c60.jpg",
-    "static/media/CG_1year.png": "/my-portfolio/static/media/CG_1year.d219c341ca89dc848393.png",
     "static/media/isprint.png": "/my-portfolio/static/media/isprint.feb3dfa56685f26e9651.png",
     "static/media/Best_Manager.png": "/my-portfolio/static/media/Best_Manager.8bcd2d5a54ee0336c85c.png",
     "static/media/Automation Practitioner.pdf": "/my-portfolio/static/media/Automation Practitioner.d779d72d61066d83ed85.pdf",
@@ -32,10 +32,10 @@
     "static/media/AZ-900.png": "/my-portfolio/static/media/AZ-900.767d49f3016a9ad9b2f1.png",
     "index.html": "/my-portfolio/index.html",
     "main.2acb6d75.css.map": "/my-portfolio/static/css/main.2acb6d75.css.map",
-    "main.03407682.js.map": "/my-portfolio/static/js/main.03407682.js.map"
+    "main.badad5a8.js.map": "/my-portfolio/static/js/main.badad5a8.js.map"
   },
   "entrypoints": [
     "static/css/main.2acb6d75.css",
-    "static/js/main.03407682.js"
+    "static/js/main.badad5a8.js"
   ]
 }
