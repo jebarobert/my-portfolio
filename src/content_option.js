@@ -13,7 +13,7 @@ import dex_award1 from "../src/Images/DEX_award.jpg";
 import dex_pdf from "../src/Images/CertificateofAppreciation.pdf";
 import dex_wish from "../src/Images/dex_wishes.jpg";
 import isprint from "../src/Images/i-SPRINT2023.pdf";
-import cg_anniversary from "../src/Images/CG_1year.png";
+import cg_anniversary from "../src/Images/CG_2year.png";
 import isprint_img from "../src/Images/isprint.png";
 import gi_award from "../src/Images/GeetaIsrani.jpg";
 import udemy_ansible from "../src/Images/udemy_ansible.png";
