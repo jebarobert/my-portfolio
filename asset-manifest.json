@@ -1,17 +1,19 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.2acb6d75.css",
-    "main.js": "/my-portfolio/static/js/main.badad5a8.js",
+    "main.js": "/my-portfolio/static/js/main.1bb2d403.js",
     "static/media/Embellish_English.mp4": "/my-portfolio/static/media/Embellish_English.43420c5b479c496490bb.mp4",
     "static/media/proj_video.mp4": "/my-portfolio/static/media/proj_video.7b62862ec108f95a8abc.mp4",
     "static/media/HSC_Award1.png": "/my-portfolio/static/media/HSC_Award1.5e5d1be288df9f6d0be6.png",
     "static/media/SSC_Award1.png": "/my-portfolio/static/media/SSC_Award1.e7064e1e6b9c50e28501.png",
     "static/media/proj_img.png": "/my-portfolio/static/media/proj_img.e0131981fe5a23d4b6f7.png",
+    "static/media/Research Paper.pdf": "/my-portfolio/static/media/Research Paper.2273c0de9c9f292ceeab.pdf",
     "static/media/DEX_award1.png": "/my-portfolio/static/media/DEX_award1.acfe86ac65fe659faadc.png",
     "static/media/GeetaIsrani.jpg": "/my-portfolio/static/media/GeetaIsrani.847e7e841d10e2442b43.jpg",
     "static/media/i-SPRINT2023.pdf": "/my-portfolio/static/media/i-SPRINT2023.d17f0f79a7d3dedd3074.pdf",
     "static/media/Embellish_english_img.png": "/my-portfolio/static/media/Embellish_english_img.31e3a0154fcbf2d21b71.png",
     "static/media/CertificateofAppreciation.pdf": "/my-portfolio/static/media/CertificateofAppreciation.d847deb1026ce5ee100a.pdf",
+    "static/media/Research_googleform.png": "/my-portfolio/static/media/Research_googleform.a1423a0a0f335a905adf.png",
     "static/media/CG_2year.png": "/my-portfolio/static/media/CG_2year.a69eb1344c1a3f8833e0.png",
     "static/media/JebaRobert.pdf": "/my-portfolio/static/media/JebaRobert.4f9dda6948e80ba50d53.pdf",
     "static/media/coursera_db_sql.png": "/my-portfolio/static/media/coursera_db_sql.bbd34a0fe0331308c566.png",
@@ -32,10 +34,10 @@
     "static/media/AZ-900.png": "/my-portfolio/static/media/AZ-900.767d49f3016a9ad9b2f1.png",
     "index.html": "/my-portfolio/index.html",
     "main.2acb6d75.css.map": "/my-portfolio/static/css/main.2acb6d75.css.map",
-    "main.badad5a8.js.map": "/my-portfolio/static/js/main.badad5a8.js.map"
+    "main.1bb2d403.js.map": "/my-portfolio/static/js/main.1bb2d403.js.map"
   },
   "entrypoints": [
     "static/css/main.2acb6d75.css",
-    "static/js/main.badad5a8.js"
+    "static/js/main.1bb2d403.js"
   ]
 }
