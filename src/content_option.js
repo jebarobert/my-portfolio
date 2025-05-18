@@ -29,6 +29,8 @@ import awt_video from "../src/Images/Embellish_English.mp4";
 import awt_img from "../src/Images/Embellish_english_img.png";
 import hsc_award from "../src/Images/HSC_Award1.png";
 import ssc_award from "../src/Images/SSC_Award1.png";
+import research_paper from "../src/Images/Research Paper.pdf";
+import research_form from "../src/Images/Research_googleform.png";
 
 const logotext = "JEBA ROBERT";
 const meta = {
@@ -367,6 +369,11 @@ const dataportfolio = [{
         img: `${java_proj_img}`,
         description: "Java Mini Project at a Glance - SY Bachelor's",
         link: `${java_proj_pdf}`,
+    },
+    {
+        img: `${research_form}`,
+        description: "Research Paper:Mobile games: Expectations and Interests of the users",
+        link: `${research_paper}`,
     },
     {
         img: `${awt_img}`,
