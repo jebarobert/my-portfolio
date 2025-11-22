@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import "../../jeba1.jpg";
 import pdf from "../../JebaRobert.pdf";
 
+// const logo = require('../../jeba1.jpg'); // with require
 const logo = require('../../jeba1.jpg'); // with require
 export const Home = () => {
   return (
