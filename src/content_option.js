@@ -1,6 +1,6 @@
-import { SiAnsible, SiKubernetes, SiPowershell, SiGitlab, SiMicrosoftazure, SiJfrog, SiHelm, SiTerraform, SiMysql, SiVault, SiUdemy, SiCoursera, SiIbmcloud } from "react-icons/si";
+import { SiAnsible, SiKubernetes, SiYaml, SiPowershell, SiGitlab, SiArgo, SiMicrosoftazure, SiApachekafka, SiJfrog, SiHelm, SiTerraform, SiMysql, SiVault, SiUdemy, SiCoursera, SiIbmcloud } from "react-icons/si";
 import { DiJenkins } from "react-icons/di";
-import { BiSolidNetworkChart } from "react-icons/bi";
+import { BiSolidNetworkChart, BiLogoPostgresql } from "react-icons/bi";
 import { FaGitlab, FaReact, FaDocker, FaPython, FaAws, FaBootstrap, FaSuitcase, FaDatabase } from "react-icons/fa";
 import { TbApi } from "react-icons/tb";
 import AZ900 from "../src/Images/AZ-900.png";
@@ -31,6 +31,9 @@ import hsc_award from "../src/Images/HSC_Award1.png";
 import ssc_award from "../src/Images/SSC_Award1.png";
 import research_paper from "../src/Images/Research Paper.pdf";
 import research_form from "../src/Images/Research_googleform.png";
+import cloud_architect from "../src/Images/BNP Cloud Architect.png";
+import cloud_operation from "../src/Images/BNP cloud Operations.png";
+import cloud_sre from "../src/Images/BNP SRE.png";
 
 const logotext = "JEBA ROBERT";
 const meta = {
@@ -38,13 +41,13 @@ const meta = {
     description: "I’m Jeba Robert _ DevOps Tech Lead, currently working at BNP Paribas",
 };
 const introdata = {
-    title: "I’m Jeba {DevOps Engineer}",
+    title: "I’m Jeba {DevOps Tech Lead}",
     animated: {
         first: "DevOps is not a goal,",
         second: "but a never-ending process",
         third: "of continual improvement",
     },
-    description: "Experienced DevOps Tech Lead with a demonstrated history of working in Devops. Skilled in Ansible, Jenkins, Terraform, Gitlab, Gitlab CI, Powershell, Python, Docker, Kubernetes, React JS, Hashicorp Vault, ServiceNow, Azure DevOps, IBM Cloud, Helm Chart and AWS.",
+    description: "Experienced DevOps Tech Lead with a demonstrated history of working in Devops. Skilled in Ansible, Jenkins, Terraform, Gitlab, Gitlab CI, Powershell, Python, Docker, Kubernetes, React JS, Hashicorp Vault, ServiceNow, Dynatrace, Yaml, Azure DevOps, IBM Cloud, Helm Chart and AWS.",
     resume: "Checkout my updated resume",
     // your_img_url: "jeba.jpg",
 };
@@ -165,10 +168,30 @@ const skills = [{
         icon: <SiJfrog size={50}/>,
         value: 65,
     },
+    {
+        name: "Postgresql",
+        icon: <BiLogoPostgresql size={50}/>,
+        value: 55,
+    },
+    {
+        name: "Yaml scripting",
+        icon: <SiYaml size={50}/>,
+        value: 80,
+    },
+    {
+        name: "Argo CD",
+        icon: <SiArgo size={50}/>,
+        value: 60,
+    },
+    {
+        name: "Apache kafka",
+        icon: <SiApachekafka size={50}/>,
+        value: 45,
+    },
 ];
 
 const services = [{
-        title: "Master of Science - IT (SIES College of Arts, Science and Commerce) 2021",
+        title: "Master of Science - IT (SIES College of Arts, Science and Commerce)",
         description1: "Percentage: 93.4% (CGPA: 9.83) (Rank 1)",
         description2: "Research Paper: Mobile games: Expectations and Interests of the users",
         description3: "Project(s):",
@@ -176,13 +199,13 @@ const services = [{
         description3_2: "Embellish English (React JS, Bootstrap)",
     },
     {
-        title: "Bachelor of Science - IT (SIES College of Arts, Science and Commerce) 2019",
+        title: "Bachelor of Science - IT (SIES College of Arts, Science and Commerce)",
         description1: "Percentage: 82.65% (CGPA:8.7)",
         description3: "Project(s):",
         description3_1: "Online Sweets Shop (Madhuram) (ASP.NET, C#, MySQL, Bootstrap)",
     },
     {
-        title: "HSC - Science (SIES College of Arts, Science and Commerce) 2016",
+        title: "HSC - Science (SIES College of Arts, Science and Commerce)",
         description1: "Percentage: 77.85%",
     },
 ];
@@ -311,6 +334,11 @@ const dataportfolio = [{
         link: "https://coursera.org/share/6e5a037d27f38826bad6e42f23997cca",
     },
     {
+        img: `${cloud_architect}`,
+        description: "BNP - Cloud Architecture Bronze",
+        link: "https://www.credly.com/badges/5462688c-e6d5-4810-9c57-6da47a8b332c/public_url",
+    },
+    {
         img: `${dex_award}`,
         description: "Delivery Excellence Award (Capgemini) (2023)",
         link: `${dex_pdf}`,
@@ -341,6 +369,11 @@ const dataportfolio = [{
         link: `${gi_award}`,
     },
     {
+        img: `${cloud_operation}`,
+        description: "BNP - Cloud Operations Bronze",
+        link: "https://www.credly.com/badges/808f15ff-1c52-4770-bfcc-69e6010e4892/public_url",
+    },
+    {
         img: `${udemy_ansible}`,
         description: "Complete DevOps Ansible Automation Training",
         link: "https://www.udemy.com/certificate/UC-c27db1c0-ec6e-44cb-aee1-89e10ca8d199/",
@@ -364,6 +397,11 @@ const dataportfolio = [{
         img: `${a_prac_img}`,
         description: "Automation Practitioner Certificate (Capgemini)",
         link: `${a_practitioner}`,
+    },
+    {
+        img: `${cloud_sre}`,
+        description: "BNP - Site Reliability Engineer(SRE) Bronze",
+        link: "https://www.credly.com/badges/4ff95b86-cf79-47c3-83b1-96b65f6492d3/public_url",
     },
     {
         img: `${java_proj_img}`,
