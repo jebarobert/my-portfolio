@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.2acb6d75.css",
-    "main.js": "/my-portfolio/static/js/main.1bb2d403.js",
+    "main.js": "/my-portfolio/static/js/main.ec7fedeb.js",
     "static/media/Embellish_English.mp4": "/my-portfolio/static/media/Embellish_English.43420c5b479c496490bb.mp4",
     "static/media/proj_video.mp4": "/my-portfolio/static/media/proj_video.7b62862ec108f95a8abc.mp4",
     "static/media/HSC_Award1.png": "/my-portfolio/static/media/HSC_Award1.5e5d1be288df9f6d0be6.png",
@@ -26,18 +26,21 @@
     "static/media/Automation_practitioner.png": "/my-portfolio/static/media/Automation_practitioner.570f04191ede50a646f5.png",
     "static/media/DEX_award.jpg": "/my-portfolio/static/media/DEX_award.3ac1abbcc71cb1839c60.jpg",
     "static/media/isprint.png": "/my-portfolio/static/media/isprint.feb3dfa56685f26e9651.png",
+    "static/media/BNP Cloud Architect.png": "/my-portfolio/static/media/BNP Cloud Architect.c78f215848e6c2c89386.png",
     "static/media/Best_Manager.png": "/my-portfolio/static/media/Best_Manager.8bcd2d5a54ee0336c85c.png",
     "static/media/Automation Practitioner.pdf": "/my-portfolio/static/media/Automation Practitioner.d779d72d61066d83ed85.pdf",
     "static/media/udemy_ansible.png": "/my-portfolio/static/media/udemy_ansible.aca61503fbc254aaa751.png",
     "static/media/github_page.png": "/my-portfolio/static/media/github_page.d7002039919ff634f965.png",
     "static/media/AZ-104.png": "/my-portfolio/static/media/AZ-104.3cd72786fbd727c0e0eb.png",
     "static/media/AZ-900.png": "/my-portfolio/static/media/AZ-900.767d49f3016a9ad9b2f1.png",
+    "static/media/BNP SRE.png": "/my-portfolio/static/media/BNP SRE.ec48f0129da4972790b6.png",
+    "static/media/BNP cloud Operations.png": "/my-portfolio/static/media/BNP cloud Operations.cea05cca5024666f4170.png",
     "index.html": "/my-portfolio/index.html",
     "main.2acb6d75.css.map": "/my-portfolio/static/css/main.2acb6d75.css.map",
-    "main.1bb2d403.js.map": "/my-portfolio/static/js/main.1bb2d403.js.map"
+    "main.ec7fedeb.js.map": "/my-portfolio/static/js/main.ec7fedeb.js.map"
   },
   "entrypoints": [
     "static/css/main.2acb6d75.css",
-    "static/js/main.1bb2d403.js"
+    "static/js/main.ec7fedeb.js"
   ]
 }
