@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.2acb6d75.css",
-    "main.js": "/my-portfolio/static/js/main.ec7fedeb.js",
+    "main.js": "/my-portfolio/static/js/main.ea1e4d26.js",
     "static/media/Embellish_English.mp4": "/my-portfolio/static/media/Embellish_English.43420c5b479c496490bb.mp4",
     "static/media/proj_video.mp4": "/my-portfolio/static/media/proj_video.7b62862ec108f95a8abc.mp4",
     "static/media/HSC_Award1.png": "/my-portfolio/static/media/HSC_Award1.5e5d1be288df9f6d0be6.png",
@@ -9,6 +9,7 @@
     "static/media/proj_img.png": "/my-portfolio/static/media/proj_img.e0131981fe5a23d4b6f7.png",
     "static/media/Research Paper.pdf": "/my-portfolio/static/media/Research Paper.2273c0de9c9f292ceeab.pdf",
     "static/media/DEX_award1.png": "/my-portfolio/static/media/DEX_award1.acfe86ac65fe659faadc.png",
+    "static/media/20251103_152521.jpg": "/my-portfolio/static/media/20251103_152521.d9ae9a4f7d3aa2136f42.jpg",
     "static/media/GeetaIsrani.jpg": "/my-portfolio/static/media/GeetaIsrani.847e7e841d10e2442b43.jpg",
     "static/media/i-SPRINT2023.pdf": "/my-portfolio/static/media/i-SPRINT2023.d17f0f79a7d3dedd3074.pdf",
     "static/media/Embellish_english_img.png": "/my-portfolio/static/media/Embellish_english_img.31e3a0154fcbf2d21b71.png",
@@ -37,10 +38,10 @@
     "static/media/BNP cloud Operations.png": "/my-portfolio/static/media/BNP cloud Operations.cea05cca5024666f4170.png",
     "index.html": "/my-portfolio/index.html",
     "main.2acb6d75.css.map": "/my-portfolio/static/css/main.2acb6d75.css.map",
-    "main.ec7fedeb.js.map": "/my-portfolio/static/js/main.ec7fedeb.js.map"
+    "main.ea1e4d26.js.map": "/my-portfolio/static/js/main.ea1e4d26.js.map"
   },
   "entrypoints": [
     "static/css/main.2acb6d75.css",
-    "static/js/main.ec7fedeb.js"
+    "static/js/main.ea1e4d26.js"
   ]
 }
