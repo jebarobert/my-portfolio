@@ -57,9 +57,14 @@ const dataabout = {
     aboutme: "Dedicated DevOps Tech Lead with 7+ years of professional expertise, with a focus on DevOps using cloud platforms, DevOps tools, and Front-End tools. Strongly driven and outcome-oriented leader who coaches teams of more than thirty employees on DevOps technologies. A devoted team player who is great at collaborating with others and who is focused on optimizing a facility's production process.",
 };
 const worktimeline = [{
+        jobtitle: "Assistant Manager (Tech Lead)",
+        where: "BNP Paribas",
+        date: "2025-Present",
+    },
+    {
         jobtitle: "Senior Associate (Tech Lead)",
         where: "BNP Paribas",
-        date: "2024-Present",
+        date: "2024-2025",
     },
     {
         jobtitle: "Consultant",
