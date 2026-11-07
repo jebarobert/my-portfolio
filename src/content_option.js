@@ -34,6 +34,8 @@ import research_form from "../src/Images/Research_googleform.png";
 import cloud_architect from "../src/Images/BNP Cloud Architect.png";
 import cloud_operation from "../src/Images/BNP cloud Operations.png";
 import cloud_sre from "../src/Images/BNP SRE.png";
+import stellar from "../src/Images/Stellar Award.jpeg";
+import stellar1 from "../src/Images/Stellar award1.jpeg";
 
 const logotext = "JEBA ROBERT";
 const meta = {
@@ -216,6 +218,10 @@ const services = [{
 ];
 
 const awards = [{
+    title: "Stellar Award Q3 2025",
+    description1: "BNP Paribas (2025)",
+ },
+{
     title: "Delivery Excellence Award",
     description1: "Capgemini (2023)",
  },
@@ -342,6 +348,11 @@ const dataportfolio = [{
         img: `${cloud_architect}`,
         description: "BNP - Cloud Architecture Bronze",
         link: "https://www.credly.com/badges/5462688c-e6d5-4810-9c57-6da47a8b332c/public_url",
+    },
+    {
+        img: `${stellar1}`,
+        description: "Stellar Award (BNP Paribas) (Q3 2025)",
+        link: `${stellar}`,
     },
     {
         img: `${dex_award}`,
